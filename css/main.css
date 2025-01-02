@@ -47,8 +47,9 @@
 .form .mid{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 29rem;
+    justify-content: flex-start;
+    gap: 11rem;
+    
 }
 
 .input-style{
@@ -56,18 +57,19 @@
     border: none;
     padding: 1rem 2rem;
     box-shadow: 0 1px 0 0 #ffffffff;
+    width: 399px;
 }
 
 .mid-bottom{
     display: flex;
     align-items: center;
-    justify-content: center;
+    
 }
 
 .input-style-2{
     background-color: var(--form_bg);
     border: none;
-    width: 936px;
+    width: 975px;
     box-shadow: 0 1px 0 0 #ffffffff;
     padding: 1rem 2rem;
 }
