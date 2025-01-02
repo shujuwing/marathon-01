@@ -1,0 +1,8 @@
+@media screen and (max-width: 1270px){
+
+    .hero .container .card_wrapper{
+        flex-wrap: wrap;
+    }
+
+
+}

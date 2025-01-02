@@ -1,3 +1,60 @@
 @import url(./common.css);
 @import url(./responsive.css);
 
+/* hero */
+
+.hero{
+    background-color: var(--bgcol);
+    padding: 6rem 0;
+}
+
+.hero .container .card_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    
+
+}
+
+.hero .container .card_wrapper .card img{
+    width: 393px;
+    height: 434px;
+    border-radius: 20px;
+}
+
+
+/* form section */
+
+.form-section{
+    background-color: var(--bgcol);
+    padding: 6rem 0;
+    
+}
+
+.form{
+    background-color: var(--form_bg);
+    padding: 2rem 3rem;
+}
+
+.form .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.form .mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30rem;
+}
+
+.input-style{
+    background-color: var(--form_bg);
+    border: none;
+    padding: 1rem 3rem;
+    box-shadow: 0 1px 0 0 #ffffffff;
+}
+
